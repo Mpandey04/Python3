@@ -1,0 +1,2 @@
+import manish 
+manish.welcome()
