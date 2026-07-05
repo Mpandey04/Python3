@@ -1,9 +1,10 @@
 x=4
 print(x)
-def hello():
+def my_function():
+    # global x
     x=10
-    print("Hello Manish")
+    print(" Manish")
     print(f"The local x is {x}")
 
-hello()
+my_function()
 print(f"The global x is {x}")
